@@ -12,7 +12,6 @@ const buildProjects = () => {
           <div class="projectButton"><h4><a href=${project.url} class="btn btn-outline-info">view project</a></h4></div>
           <div class="projectButton"><h4><a href=${project.githubProject} class="btn btn-outline-info">visit site</a></h4></div>
         </div>
-        <div class="tech-used"><p>${project.technologiesUsed}</p></div>
       </div>`
       );
     }
